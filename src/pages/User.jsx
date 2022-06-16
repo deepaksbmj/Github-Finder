@@ -90,7 +90,7 @@ function User() {
                 <div className="stat">
                   <div className="stat-title text-md">Website</div>
                   <div className="text-lg stat-value">
-                    <a href={`https://${blog}`} target="_blank" rel="noreferrer">
+                    <a href={`https://${blog}`} target="_blank">
                       {blog}
                     </a>
                   </div>
@@ -103,7 +103,6 @@ function User() {
                     <a
                       href={`https://twitter.com${twitter_username}`}
                       target="_blank"
-                      rel="noreferrer"
                     >
                       {twitter_username}
                     </a>
