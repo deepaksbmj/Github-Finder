@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Mandatory Steps
+1. Generate an GITHUB API KEY
+   check this article (https://docs.github.com/en/enterprise-server@3.2/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+2. paste the generated key in .env file under REACT_APP_GITHUB_TOKEN
+
+In the project directory, you can run
+
 ## Available Scripts
 
 In the project directory, you can run:
